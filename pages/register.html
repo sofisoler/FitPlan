@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../images/logo.ico" type="image/x-icon" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>FitPlan | Registrarse</title>
+  </head>
+  <body>
+    <header class="header">
+      <section class="header__banner">
+        <img class="header__logo" src="../images/logo.ico" alt="Imagen logo" />
+        <h1>FitPlan</h1>
+        <p>¡Hace seguimiento de tu rutina!</p>
+      </section>
+      <img
+        class="header__image"
+        src="../images/image-header.png"
+        alt="Imagen encabezado"
+      />
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="../pages/login.html">Iniciar sesión</a>
+          </li>
+          <li>
+            <a href="../pages/register.html">Registrarse</a>
+          </li>
+          <li>
+            <a href="../pages/routine.html">Mis rutinas</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a href="../index.html" class="back-to-home">Volver a inicio</a>
+      <section class="form-section">
+        <form action="" class="wow animate__animated animate__fadeIn">
+          <fieldset>
+            <legend>Registrarse</legend>
+            <div>
+              <label for="name">Nombre:</label>
+              <input type="text" name="name" required />
+            </div>
+            <div>
+              <label for="email">Correo electrónico:</label>
+              <input type="email" name="email" required />
+            </div>
+            <div>
+              <label for="password">Contraseña:</label>
+              <input type="password" name="password" required />
+            </div>
+            <div>
+              <input class="btn-form" type="submit" value="Registrarse" />
+            </div>
+            <div class="register-link">
+              <p>
+                ¿Ya tenés una cuenta?
+                <a href="../pages/login.html">Inicia sesión</a>
+              </p>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <p>© 2023 FitPlan</p>
+        <ul class="footer__menu">
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
